@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<iframe id="myIframe" src="https://fmovies.to/movie/peter-pan-wendy-30nn2/1-1" width="560" height="315"></iframe>
+
+<button onclick="getIframeSrc()">احصل على رابط الفيديو</button>
+
+<script>
+function getIframeSrc() {
+  var iframe = document.getElementById("myIframe");
+  var videoUrl = iframe.src;
+  alert("رابط الفيديو: " + videoUrl);
+}
+</script>
+
+</body>
+</html>
